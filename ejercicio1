@@ -1,0 +1,20 @@
+P_Hombres=1494815
+P_Mujeres=1532128
+Pr_Culiacán=33.15
+Pr_Mazatlán=16.57
+Temperatura= 25.45 
+Superficie =57365
+Precipitación=790.1
+T_Clima=["cálido", "subhúmedo","seco","semiseco"]
+P_Total=P_Hombres+P_Mujeres
+print("Población Total")
+print(P_Total)
+Pr_Total=Pr_Culiacán+Pr_Mazatlán
+print("Porcentaje  total de la población entre Culiacán y Mazatlán")
+print(Pr_Total)
+print('\n'"temperatura media anual ")
+print(Temperatura,"grados centígrados")
+print("Tipos de climas")
+print('\n'.join(map(str, T_Clima)))
+print('\n'"superficie de Sinaloa:",Superficie,"km2")
+print('\n'"Precipitación anual promedio:",Precipitación,"mm")
